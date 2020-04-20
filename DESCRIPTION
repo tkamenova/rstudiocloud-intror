@@ -14,11 +14,11 @@ Language: en
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
-Remotes: lockedata/starters
+Remotes: lockedata/starters,
+    ndphillips/FFTrees
 Imports: 
     tidyverse,
     tidymodels,
-    tidyverts,
     starters,
     FFTrees,
     DBI,
@@ -33,4 +33,13 @@ Imports:
     BiocManager,
     AppliedPredictiveModeling,
     cowplot,
-    GGally
+    GGally,
+    PASWR,
+    smbinning,
+    mlbench,
+    anomalize,
+    fable,
+    ggseas.
+    coindeskr,
+    lubridate,
+    tsibble
