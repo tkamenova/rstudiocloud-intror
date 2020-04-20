@@ -1,0 +1,33 @@
+Package: rstudiocloud.intror
+Title: A simple starter space for Locke Data Introduction to R courses.
+Version: 0.0.1
+Authors@R: 
+    person(given = "Steph",
+           family = "Locke",
+           role = c("aut", "cre"),
+           email = "steph@itsalocke.com",
+           comment = c(ORCID = "0000-0002-2387-3723"))
+Description: A simple starter space for Locke Data Introduction to R courses.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Remotes: lockedata/starters
+Imports: 
+    tidyverse,
+    tidymodels,
+    tidyverts,
+    starters,
+    FFTrees,
+    DBI,
+    odbc,
+    DataExplorer,
+    naniar,
+    visdat,
+    httr,
+    leaflet,
+    plotly,
+    datasauRus,
+    BiocManager
