@@ -30,4 +30,7 @@ Imports:
     leaflet,
     plotly,
     datasauRus,
-    BiocManager
+    BiocManager,
+    AppliedPredictiveModeling,
+    cowplot,
+    GGally
