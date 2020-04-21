@@ -39,7 +39,7 @@ Imports:
     mlbench,
     anomalize,
     fable,
-    ggseas.
+    ggseas,
     coindeskr,
     lubridate,
     tsibble
