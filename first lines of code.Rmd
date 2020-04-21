@@ -24,6 +24,26 @@ The preview shows you a rendered HTML copy of the contents of the editor. Conseq
 ```{r}
 #area of pizza = 2 * pi^2
 diameter = 12
+```
+
+
+```{r}
 pi * (diameter/2)^2
 ```
+
+
+## 8.7 excersises - most useful for housekeeping stuff
+```{r}
+as.numeric(TRUE)
+as.numeric(c(TRUE, FALSE, TRUE, TRUE))
+Sys.time()
+typeof(Sys.time())
+typeof(Sys.timezone())
+a <- Sys.timezone()
+a
+typeof(a)
+a <- '“Do you think this is a game?”, he said. “No, I think Jenga’s a game”, Archer responded.'
+a
+```
+
 
